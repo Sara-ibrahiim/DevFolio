@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 620;
+    padding-left: 8px;
+
+}
+.nav-item{
+    color: #fff m !important;
+    font-size: 16px;
+    font-weight: 500; 
+    padding-right:20px !important ;
+    
+}
+
+.backgroundhead{
+    background-image: url(../images/intro-bg.jpg);
+    overflow: auto;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+   
+
+}
+.layerhead{
+    background-color: rgba(0, 0, 0, 0.6 );
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layerhead2{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.layerhead2 h1{
+    font-size: 70px;
+    color: #fff;
+}.layerhead2 h2{
+    font-size:50px ;
+    font-weight: 400;
+    padding: 20px 0;
+    color: white;
+}
+ .layerhead2 h2::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+ 
+
+
+
+
+.skills .progress{
+    background-color: #cde1f8;
+    border-radius: 0px;
+    margin: 12px 0px;
+}
+
+
+.right h2{
+    position: relative;
+   
+}
+.right h2::after{
+    content: "";
+    background-color:#0d6efd ;
+    width: 90px;
+    position: absolute;
+    bottom: -8px;
+    left: 0%;
+    padding: 1px;
+    
+
+}
+
+.SERVICES p{
+    position: relative;
+    text-align:center;
+    margin: 10px 0px;
+}
+
+ .SERVICES p::after{
+
+    content: "";
+    position: absolute;
+    width: 35px;
+    padding: 3px;
+    background-color: #0d6efd;
+    text-align: center;
+    top: 30px;
+    right: 47%;
+   
+    
+
+    
+}
+ .SERVICES p::before{
+    content: "SERVIES";
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1e1e1e;
+    position: absolute;
+    text-align: center;
+    z-index:1 ;
+    top: -70px;
+    right: 30%;
+    margin-top: 15px;
+  
+}  
+
+.ic3{
+    width: 110px;
+      height:110px;
+      border-radius: 50%;
+      border: #0078ff 5px solid ;
+      border-width: 9px;   
+      margin: 15px  0;
+      padding-top: 20px;
+      text-align: center;
+      
+
+}
+.s3:hover .ic3{
+    border: #cde1f8 5px solid;
+    background-color: #0078ff;
+    border-width: 9px;
+    color: #fff;
+}
+.proin{
+    color: #4e4e4e;
+}
+.backg{
+    background-image:url(../images/counters-bg.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.layer{
+    background-color: rgba(0, 120, 255, 0.6);
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cr{
+      width: 80px;
+      height:80px;
+      border-radius: 50%;
+      border: #cde1f8 7px solid ;
+      border-width: 9px;   
+      text-align: center;
+      padding-top: 15px;
+      margin: auto;
+     
+} 
+.carousel-indicators .bc{
+    width: 23px;
+    height: 7px;
+}
+
+
+.PORTFOLIO p{
+    position: relative;
+    text-align:center;
+    margin: 10px 0px;
+}
+
+.PORTFOLIO p::after{
+
+    content: "";
+    position: absolute;
+    width: 35px;
+    padding: 3px;
+    background-color: #0d6efd;
+    text-align: center;
+    top: 30px;
+    right: 47%;
+
+
+    
+}
+.PORTFOLIO p::before{
+    content: "PORTFOLIO";
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1e1e1e;
+    position: absolute;
+    text-align: center;
+    z-index:1 ;
+    top: -70px;
+    right: 23%;
+    margin-top: 15px;
+  
+}  
+.s4 img{
+    width: 356px;
+    
+    
+}
+.p6:hover img{
+    transform: scale(1.1);
+    
+    
+   
+   
+}
+.pb-22 , .webd a{
+    font-size: 14px;
+  
+}
+.p6 , .p66{
+    overflow: hidden;
+ 
+   
+}
+.p6 img{
+    transition:  all 1s ;
+  
+   
+
+}
+
+.bg5{
+    background-image:url(../images/overlay-bg.jpg);
+    height: 90%;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.layerx{
+    background-color: rgba(0, 120, 255, 0.6);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.ic4{
+    background-color: #fff;
+    color: #0d6efd;
+}
+
+.ic5{
+    width: 50px;
+    height: 50px;
+    color: #0d6efd;
+    padding-top: 10px;
+}
+.bg-no{
+    background-color: initial;
+    border: none;
+}
+.btt {
+    border: none;
+  
+
+}
+.closex  {  
+    transform: translatey(220px); 
+
+}
+
+.hh {
+    border: none  !important;
+    background-color: initial !important;
+}
+.hh img{
+    width: 120%;
+    border: #fff 2px solid;
+    border-width: 4px;
+
+    
+}
+.BLOG p{
+    position: relative;
+    text-align:center;
+    margin: 10px 0px;
+}
+
+.BLOG p::after{
+
+    content: "";
+    position: absolute;
+    width: 35px;
+    padding: 3px;
+    background-color: #0d6efd;
+    text-align: center;
+    top: 30px;
+    right: 47%;
+    
+}
+.BLOG p::before{
+    content: "BLOG";
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1e1e1e;
+    position: absolute;
+    text-align: center;
+    z-index:1 ;
+    top: -70px;
+    right: 39%;
+    margin-top: 15px;
+  
+}  
+
+.tsblog{
+    color: #fff;
+    background-color: #0078ff;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    padding:7px 16px 16px 16px ;
+    border-radius: 3px;
+    transform: translateY(-60%);
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+}
+.blogsim{
+    width: 100%;
+    border-radius: 50%;
+
+}
+.fac{
+    padding-top: 6px;
+    margin-right: 3px;
+    color: #4e4e4e;
+    
+}
+.xblog{
+    border: #C8C8C8 1px solid;
+}
+.blogp{
+    color: #4e4e4e;
+}
+.tsblogg{
+    color: #fff;
+    background-color: #0078ff;
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    padding:7px 18px 16px 19px ;
+    border-radius: 3px;
+    transform: translateY(-60%);
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+}
+
+.wsee h5 a{
+    color: #1e1e1e;
+
+}
+.wsee h5 a:hover{
+    color: #0078ff;
+}
+.bgfoot{
+    background-image:url(../images/overlay-bg.jpg);
+    overflow: auto;
+    background-size: 100% 100%;
+    background-position:center center;
+    height: auto;
+     background-attachment: fixed; 
+
+}
+.layerxx{
+    background-color: rgba(0, 120, 255, 0.6);
+    height: auto;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+ .btn-primary{
+    padding: 15px 30px;
+    transition: border 1s;
+    border: 5px solid #fff ;
+    background-color: #0078ff !important;
+
+} 
+.btn-primary:hover{
+    border: 5px solid #cde1f8;  
+    background-color: #0062cc !important;   
+}
+.right2 h2{
+    position: relative;
+   
+}
+.right2 h2::after{
+    content: "";
+    background-color:#0078ff ;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    bottom: -8px;
+    left: 0%;
+    padding: 1px;
+    
+
+}
+.control{
+    height: 30%;
+}
+
+.fatend{
+    color: #0078ff;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.fabend{
+    width: 43px;
+      height:43px;
+      border-radius: 50%;
+      border: #0078ff 5px solid ;
+      border-width: 3px;   
+      text-align: center;
+      padding-top: 7px;
+      font-size: 23px;
+      
+}
+.fabend:hover {
+    border: #cde1f8 5px solid;
+    background-color: #0078ff !important;
+    border-width: 3px;
+    color: #fff;
+}
+.fr{
+    background-image: url(../images/overlay-bg\ -\ Copy2.jpg);
+    overflow: auto;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 30%;
+    background-attachment: fixed;
+}
+
+
+
+
+@keyframes typing{
+    1%{content: "W";}
+    2%{content: "We";}
+    4%{content: "Web";}
+    6%{content: "Web ";}
+    8%{content: "Web D";}
+    10%{content: "Web De";}
+    12%{content: "Web Dev";}
+    14%{content: "Web Deve";}
+    16%{content: "Web  Devel";}
+    18%{content: "Web  Develo";}
+    20%{content: "Web Develop";}
+    22%{content: "Web Develope";}
+    24%{content: "Web Developer";}
+    26%{content: "W";}
+    28%{content: "We";}
+    30%{content: "Web";}
+    32%{content: "Web ";}
+    34%{content: "Web D";}
+    36%{content: "Web De";}
+    38%{content: "Web Des";}
+    40%{content: "Web Desi";}
+    42%{content: "Web Desin";}
+    44%{content: "Web Desing";}
+    46%{content: "Web Desinge";}
+    47%{content: "Web Desinger";}
+    48%{content: "Web Desinger";}
+   50%{content: "F";}
+   52%{content: "Fr";}
+    54%{content: "Fro";}
+    56%{content: "Fron";}
+    58%{content: "Front";}
+    60%{content: "Fronte ";}
+    62%{content: "Fronten ";}
+    64%{content: "Frontend";}
+    66%{content: "Frontend D ";}
+    68%{content: "Frontend De";}
+    70%{content: "Frontend Dev";}
+    72%{content: "Frontend Deve";}
+    74%{content: "Frontend Devel";}
+    75%{content: "Frontend Develo";}
+ 77%{content: "Frontend Develop";}
+    79%{content: "Frontend Develope";}
+   81%{content: "Frontend Developer";}
+    83%{content: "Frontend Developer";}
+     84%{content: "G";}
+    85%{content: "Gr";}
+    86%{content: "Gra";}
+   87%{content: "Grap ";}
+    88%{content: "Graph";}
+    89%{content: "Graphi";}
+    90%{content: "Graphic";}
+    91%{content: "Graphic ";}
+    92%{content: "Graphic D";}
+    93%{content: "Graphic De";}
+    94%{content: "Graphic Des";}
+    95%{content: "Graphic Desi";}
+    96%{content: "Graphic Desin";}
+   97%{content: "Graphic Desing";}
+    98%{content: "Graphic Desinge";}
+   99%{content: "Graphic Desinger";}
+    100%{content: "Graphic Desinger";} 
+
+
+    
+} 
+@media screen  and (min-width:610px) and (max-width:768px) {
+   .c2{ 
+    padding-top: 23px !important;
+    
+   }
+    
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .bwork{
+        width: 60%;
+    }
+    .btwork{
+        width: 40%;
+        
+       
+    }
+    .bl .bl1{
+        width:30%;
+        
+    }
+    .bl1 img{
+        width:100% ;
+    }
+    .bl .bl2{
+        width:70% ;
+    }
+    .bl3{
+        width: 65%;
+       margin-left: auto;
+    }
+    .c3{
+        padding-top: 23px !important;
+    }
+    
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .bl .bl1{
+        
+   
+        width: 50px
+       
+    }
+    .bl1 img{
+        width:100% ;
+    
+    }
+    .bl .bl2{
+      width:110px ;
+       margin-left: 0;
+       margin-right:0;
+       padding-right: 0;
+       padding-left: 0;
+    }
+    .bl .bl2 p a{
+        font-size: 14px;
+    }
+
+    .bl3{
+        width:100px ;
+       font-size: 14px;
+       margin-left: 0;
+       margin-right:0;
+       padding-right: 0;
+   
+    }
+}
